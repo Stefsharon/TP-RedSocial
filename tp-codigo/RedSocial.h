@@ -27,11 +27,11 @@ class RedSocial{
   private:
     set<int> _usuarios;
     map<int, string>  _id_alias; 
-    std::unordered_map<std::string, int> alias_a_id; // a checkear
+    map<std::string, int> alias_a_id; // a checkear
     map<int, set<string>> _friends;
     map<int, set<string>> _conocidos;
     int _cantidad_amistades; 
-    int mas_popular = popular(_usuarios);
+    int mas_popular; // tenerlo actualizado
 };
 
 #endif
