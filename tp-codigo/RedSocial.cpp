@@ -62,7 +62,7 @@ void RedSocial::desamigar_usuarios(int id_A, int id_B){
 }
 
 int RedSocial::obtener_id(string alias) const{
-    return alias_a_id[alias]; // O(1) en promedio por el unorded map
+    return alias_a_id[alias]; // O(1) en promedio por el unorded map no!!!!!!!!
 }
 const set<string> & RedSocial::conocidos_del_usuario_mas_popular() const{
     

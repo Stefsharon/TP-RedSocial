@@ -32,6 +32,7 @@ class RedSocial{
     map<int, set<string>> _conocidos;
     int _cantidad_amistades; 
     int mas_popular; // tenerlo actualizado
+    
 };
 
 #endif
